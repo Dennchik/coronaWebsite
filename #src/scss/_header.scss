@@ -1,0 +1,72 @@
+.land-top {
+	flex: 1 1 auto;
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background: #fafbfd;
+
+	&__img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-right: 16px;
+		float: left;
+		width: 18.456em;
+		height: 700px;
+		background: #ec5863;
+		border-radius: 30px 0 0 30px;
+	}
+}
+
+.header {
+	position: relative;
+	z-index: 1;
+
+	&__container {
+		display: flex;
+		min-height: 114px;
+		align-items: center;
+	}
+
+	&__menu {
+		flex: 1 1 auto;
+	}
+
+	&__button {
+		display: flex;
+		justify-content: flex-end;
+		flex: 0 0 262px;
+		padding: 10px;
+		align-items: center;
+
+	}
+
+}
+// * menu
+
+.menu {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+
+	&__list {
+		display: flex;
+		height: 100%;
+	}
+
+	&__item {
+		margin-right: 2.5em;
+	}
+
+	&__link {
+		font-family: "Raleway", serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 0.625em;
+		line-height: 1.2;
+		white-space: nowrap;
+
+		letter-spacing: 0.14em;
+		color: #000000;
+	}
+}

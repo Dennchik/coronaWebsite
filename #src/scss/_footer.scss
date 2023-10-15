@@ -1,0 +1,215 @@
+.footer {
+	width: 100%;
+	height: 700px;
+	background: #fff;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 auto;
+	}
+
+	&__top {
+		padding-left: 7px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		width: 100%;
+		height: 200px;
+		align-items: center;
+	}
+
+	&__top h1 {
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 44px;
+		line-height: 126%;
+		text-align: center;
+		font-feature-settings: "pnum" on, "lnum" on;
+
+		color: #000;
+	}
+
+	&__top p {
+		max-width: 600px;
+		height: 52px;
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 138.5%;
+		margin-top: 14px;
+		letter-spacing: 0.08em;
+		font-feature-settings: "pnum" on, "lnum" on;
+
+		color: #616161;
+	}
+
+	&__top span {
+		color: #ec5863;
+	}
+
+
+	&__middle {
+		position: relative;
+		padding-left: 7px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 67px;
+
+		width: 100%;
+		height: 370px;
+	}
+
+	&__bottom {
+		width: 100%;
+		height: 130px;
+		display: flex;
+		flex-direction: row;
+		align-self: center;
+	}
+
+	&__rectangle {
+		position: relative;
+		flex: 1 1 17.386em;
+		z-index: 3;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		height: 17.283em;
+
+		background: #fff;
+		box-shadow: 0 4px 18px rgba(88, 126, 236, 0.18);
+		border-radius: 8px;
+	}
+
+	&__rectangle h6 {
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 138.5%;
+		text-align: center;
+		letter-spacing: 0.08em;
+		font-feature-settings: "pnum" on, "lnum" on;
+
+		color: #000;
+	}
+
+	&__rectangle p {
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 138.5%;
+		text-align: center;
+		letter-spacing: 0.08em;
+		font-feature-settings: "pnum" on, "lnum" on;
+
+		color: #616161;
+	}
+
+
+}
+
+.image-human {
+	width: 65px;
+	height: 73px;
+	background: url(../img/human.png);
+}
+
+.image-doctor {
+	width: 65px;
+	height: 73px;
+	background: url(../img/doctor.png);
+}
+
+.image-heart {
+	width: 88px;
+	height: 73px;
+	background: url(../img/heart.png);
+}
+
+.wrapp {
+	padding-left: 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 57px;
+
+
+	&__google {
+		flex: 0 1 161px;
+		height: 56px;
+		background: url(../img/google.png) no-repeat;
+		background-size: contain;
+		border-radius: 5px;
+	}
+
+	&__app-tore {
+		flex: 0 1 161px;
+		height: 58px;
+		background: url(../img/appstore.png) no-repeat;
+		background-size: contain;
+		border-radius: 5px;
+	}
+}
+
+.wrap-cont {
+	position: relative;
+	width: 17.386em;
+	height: 17.283em;
+}
+
+.rhombus-a {
+	position: absolute;
+	width: 4.109em;
+	height: 4.109em;
+	left: 20px;
+	bottom: 14px;
+
+	background: #ec5863;
+	border-radius: 16px;
+	transform: rotate(-30deg);
+}
+
+.rhombus-b {
+	position: absolute;
+	width: 6.06em;
+	height: 6.06em;
+	right: -47px;
+	top: 34px;
+
+	background: #ec5863;
+	border-radius: 30px;
+	transform: rotate(105deg);
+}
+
+.rhombus-c {
+
+	position: absolute;
+	width: 7.967em;
+	height: 7.967em;
+	right: -88px;
+	bottom: -27px;
+
+	background: #ec5863;
+	border-radius: 30px;
+	transform: rotate(-30deg);
+}
+
+.rhombus-d {
+	position: absolute;
+	width: 4.109em;
+	height: 4.109em;
+	right: 20px;
+	top: 14px;
+
+	background: #ec5863;
+	border-radius: 16px;
+	transform: rotate(-30deg);
+}

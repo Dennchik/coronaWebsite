@@ -1,0 +1,124 @@
+// * main block
+.main {
+	flex: 1 1 auto;
+	position: relative;
+	z-index: 0;
+
+	&__container {
+		padding: 39px 0 0 16px;
+		display: flex;
+		max-height: 434px;
+		justify-content: space-between;
+		gap: 16px;
+	}
+
+	&__content {
+		flex: 0 1 auto;
+		max-width: 414px;
+		min-height: 220px;
+		align-self: center;
+		padding-left: 7px;
+	}
+
+	&__image {
+		flex: 0 0 547px;
+		height: 395px;
+		background-image: url(../img/corona.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+
+	}
+
+	&__container h1 {
+		min-height: 110px;
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 2.75em;
+		line-height: 125%;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+
+	&__content p {
+		min-height: 70px;
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 0.75em;
+		line-height: 138.5%;
+		letter-spacing: 0.08em;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #616161;
+	}
+
+	&__container span {
+		color: #4285f4;
+	}
+
+	&__button {
+		display: inline-block;
+	}
+
+	&__item-video {
+		display: flex;
+		gap: 10px;
+		flex: 0 0 228px;
+		height: 44px;
+		padding-left: 7px;
+	}
+
+	&__play-video {
+		border-radius: 44px;
+		width: 44px;
+		height: 44px;
+		background: url(../img/play.png);
+		box-shadow: 0 0 7px #000;
+		transition: 0.7s ease 0s;
+	}
+
+	&__play-video:hover {
+		box-shadow: 0 0 2px #000;
+	}
+
+	&__wrapp-cont {
+		align-self: center;
+	}
+
+	&__item-video h6 {
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 126%;
+		letter-spacing: 0.08em;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+
+		color: #B0B0B0;
+		white-space: nowrap;
+	}
+
+	&__item-video p {
+		font-family: "Rubik", serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 9px;
+		line-height: 126%;
+		letter-spacing: 0.165em;
+		text-transform: uppercase;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+
+		color: #000000;
+	}
+}
+
+.video {
+	&__container {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		position: relative;
+		height: 152px;
+	}
+}
+
