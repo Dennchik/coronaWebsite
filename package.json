@@ -1,0 +1,70 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "Сборка Gulp",
+  "main": "index.js",
+  "tipe": "module",
+  "scripts": {
+	"(1) Start-Project (Build)": "gulp",
+	"(2) End-Project (Build)": "gulp --production",
+	" --  Clear-Directiry (Build)": "gulp clear",
+	" --  Css-files": "gulp css",
+	" --  Html-files": "gulp html",
+	" --  JavaScript-files": "gulp js",
+	" --  Image-files": "gulp image",
+	" --  Font-files": "gulp fonts",
+	"(3) Final-Project (Public)": "gulp final",
+	" --  Clear-Directiry (Public)": "gulp clearEnd",
+	" --  Taks": "gulp --tasks"
+  },
+  "author": "Dennchik",
+  "license": "ISC",
+  "babel": {
+	"presets": [
+	  "@babel/preset-env"
+	]
+  },
+  "devDependencies": {
+	"@babel/core": "^7.18.9",
+	"@babel/preset-env": "^7.18.9",
+	"browser-sync": "^2.27.10",
+	"gulp": "^4.0.2",
+	"gulp-autoprefixer": "^8.0.0",
+	"gulp-babel": "^8.0.0",
+	"gulp-concat": "^2.6.1",
+	"gulp-csso": "^4.0.1",
+	"gulp-debug": "^4.0.0",
+	"gulp-file-include": "^2.3.0",
+	"gulp-group-css-media-queries": "^1.2.2",
+	"gulp-imagemin": "^7.1.0",
+	"gulp-load-plugins": "^2.0.7",
+	"gulp-newer": "^1.4.0",
+	"gulp-notify": "^4.0.0",
+	"gulp-plumber": "^1.2.1",
+	"gulp-remove-html-comments": "^1.0.1",
+	"gulp-size": "^4.0.1",
+	"gulp-sourcemaps": "^3.0.0",
+	"gulp-strip-css-comments": "^2.0.0",
+	"gulp-ttf2woff2": "^4.0.1",
+	"gulp-uglify": "^3.0.2",
+	"gulp-webp": "^4.0.1",
+	"gulp-webp-css": "^1.1.0",
+	"gulp-webp-html": "^1.0.2",
+	"webpack": "^5.74.0",
+	"webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+	"@types/jest": "^28.1.6",
+	"D": "^1.0.0",
+	"del": "^6.1.1",
+	"gulp-fonter": "^0.3.0",
+	"gulp-htmlmin": "^5.0.1",
+	"gulp-if": "^3.0.0",
+	"gulp-rename": "^2.0.0",
+	"gulp-shorthand": "^1.1.0",
+	"imagemin": "^8.0.1",
+	"imagemin-jpeg-recompress": "^7.0.0",
+	"imagemin-pngquant": "^9.0.2",
+	"require-dir": "^1.2.0"
+  }
+}
