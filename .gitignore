@@ -5,7 +5,7 @@
 .vscode
 node_modules
 Applications
+/gulpfile.js
 Temp
 Templates
 desktop.ini
-
