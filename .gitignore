@@ -4,8 +4,11 @@
 /.vscode
 .vscode
 node_modules
-Applications
 gulpfile.js
+Applications
 Temp
 Templates
 desktop.ini
+package.json
+package-lock.json
+.eslintrc.js
